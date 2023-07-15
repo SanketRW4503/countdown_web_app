@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>CountDown-Timer</title>
+</head>
+
+<body>
+    <div id="countdown-setter">
+        <h1>Set Countdown</h1>
+
+        <input type="text" placeholder="Enter CountDown Name" id="CountDown_name">
+        <label>Select Date:</label>
+        <input type="date" name="" id="date">
+        <label>Select Time:</label>
+        <input type="time" id="time">
+
+        <button onclick=setCountDown()>Set Now</button>
+
+    </div>
+
+    <div id="countdown-container">
+        <div id="nameplate" style="font-size: 40px; margin-bottom: 30px;"></div>
+        <div id="countdown">
+            <div id="days"></div>
+            <div id="hours"></div>
+            <div id="min"></div>
+            <div id="seconds"></div>
+        </div>
+        <button onclick=cancelCountdown() id="cancel_countdown">Cancel CountDown</button>
+
+    </div>
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"
+        integrity="sha512-AA1Bzp5Q0K1KanKKmvN/4d3IRKVlv9PYgwFPvm32nPO6QS8yH1HO7LbgB1pgiOxPtfeg5zEn2ba64MUcqJx6CA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./index.js"></script>
+</body>
+
+</html>

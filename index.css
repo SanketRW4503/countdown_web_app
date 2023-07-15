@@ -1,0 +1,88 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+#countdown-setter{
+
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 50%;
+    margin: auto;
+    margin-top: 10%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+
+}
+#countdown-setter input{
+    margin-bottom: 20px;
+    outline: none;
+}
+#countdown-setter button{
+    background-color: rgb(85, 125, 211);
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    color: white;
+    cursor: pointer;
+
+}
+
+#countdown-setter button:hover{
+    background-color: rgb(63, 111, 214);
+}
+
+#CountDown_name{
+
+    border: none;
+    margin-top: 20px;
+    background-color: transparent;
+    border-bottom: 1px solid black;
+
+}
+#countdown{
+    display: flex;
+}
+#countdown div{
+    border: 1px solid black;
+    font-size: 80px;
+    padding: 10px;
+    margin-left: 10px;
+    margin-left: 10px;
+}
+
+#countdown-container{
+    display: flex;
+    border:1px solid black;
+    width: 80%;
+    margin: auto;
+    transition: all 1s;
+    margin-top: 10%;
+    padding: 20px;
+    border-radius: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+#countdown-container button{
+    background-color: rgb(85, 125, 211);
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    color: white;
+    cursor: pointer;
+    margin-top: 40px;
+}
+#countdown-container button:hover{
+    background-color: rgb(63, 111, 214);
+}
+
+@media screen and (max-width: 800px) {
+    #countdown div{
+        font-size: 30px;
+    }
+  }
